@@ -25,7 +25,7 @@
 		<div class="ejercicio3">
 		<?php 
 		date_default_timezone_set('America/Chihuahua');
-		$tiempo =  date("g:i:s");
+		$tiempo =  date("G:i:s");
 		if ($tiempo < 12) {
 			echo "Buenos días son las: $tiempo";
 		}
