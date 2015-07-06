@@ -24,7 +24,7 @@
 
 		<div class="ejercicio6">
 		    <?php
-            $num = 1;
+            $num = 10;
  			echo "Tabla del 10 <br>";
             for ($x = 1; $x <= 10; $x++) {
             $r = $x * $num;
