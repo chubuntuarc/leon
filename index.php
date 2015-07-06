@@ -24,7 +24,7 @@
 					<a href="random.php" target="_blank">5 |  Función rand | Numeros aleatorios</a>
 					<a href="tabla.php" target="_blank">6 | Tabla del 10</a>
 					<a href="edad.php" target="blank">7 |  Validar edad</a>
-					<a href="http://www.infonavit.org.mx/" target="blank">Infonavit</a>
+					<a href="grado.php" target="blank">8 |  Grado de estudios</a>
 					<a href="http://www.chihuahua.gob.mx/" target="blank">Chihuahua Gob.</a>
 					<a href="http://www.municipiochihuahua.gob.mx/">Municipio CUU</a>
 					<a href="http://tiempo.com.mx" target="blank">El Tiempo</a>
