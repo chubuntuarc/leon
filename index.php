@@ -21,7 +21,7 @@
 					<a href="meses.php" target="_blank">2 |  Meses del año según la estación</a>
 					<a href="mayo.php" target="_blank">3 |  Números | ¿Cual es mayor?</a>
 					<a href="saludo.php" target="_blank">4 |  Saludo en base a la hora</a>
-					<a href="http://facebook.com" target="_blank">Facebook</a>
+					<a href="random.php" target="_blank">5 |  Función rand | Numeros aleatorios</a>
 					<a href="http://twitter.com" target="_blank">Twitter</a>
 					<a href="https://consultas.curp.gob.mx/CurpSP/" target="blank">Curp</a>
 					<a href="http://www.infonavit.org.mx/" target="blank">Infonavit</a>
