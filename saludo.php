@@ -18,7 +18,7 @@
 	<body>
 		<div class="container">
 			<header class="codrops-header">
-				<h1>Números | ¿Cual es mayor? .. <span>Declarar dos variables e imprimir su valor.. mostrar cual valor es mayor</h1>
+				<h1>Saludo en base a la hora .. <span>Script donde según la hora actual se imprime el saludo.</h1>
 				</header>
 		</div><!-- /container -->
 
