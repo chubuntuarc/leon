@@ -23,7 +23,7 @@
 					<a href="saludo.php" target="_blank">4 |  Saludo en base a la hora</a>
 					<a href="random.php" target="_blank">5 |  Función rand | Numeros aleatorios</a>
 					<a href="tabla.php" target="_blank">6 | Tabla del 10</a>
-					<a href="https://consultas.curp.gob.mx/CurpSP/" target="blank">Curp</a>
+					<a href="edad.php" target="blank">7 |  Validar edad</a>
 					<a href="http://www.infonavit.org.mx/" target="blank">Infonavit</a>
 					<a href="http://www.chihuahua.gob.mx/" target="blank">Chihuahua Gob.</a>
 					<a href="http://www.municipiochihuahua.gob.mx/">Municipio CUU</a>
