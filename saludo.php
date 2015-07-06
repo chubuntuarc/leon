@@ -23,26 +23,20 @@
 		</div><!-- /container -->
 
 		<div class="ejercicio3">
-		<form method="post"> 
-		<input type="text" name="num1" placeholder="Primer Valor" required> 
-		<input type="text" name="num2" placeholder="Segundo Valor" required>
-		<br><br>
-		<input type="submit" value="Calcular" id="botonz">
-		</form>
-
 		<?php 
-		echo "<br><br>El valor del primer número es: " . "{$_POST['num1']}" . " y el valor del segundo es: " . "{$_POST['num2']}";
-		$n1 = (int)$_POST['num1'];
-		$n2 = (int)$_POST['num2'];		
-		if ($n1 > $n2) {
-			echo "<br>El mayor es : $n1";
+		date_default_timezone_set('America/Chihuahua');
+		$tiempo =  date("g:i:s");
+		if ($tiempo < 12) {
+			echo "Buenos días son las: $tiempo";
+		}
+		else if ($tiempo >= 12 && $tiempo < 20) {
+			echo "Buenas tardes son las: $tiempo";
 		}
 		else
 		{
-			echo "<br>El mayor es : $n2";
+		echo "Buenas noches son las: $tiempo";
 		}
-		
-		 ?>
+		?>
 		</div>
 
 		
