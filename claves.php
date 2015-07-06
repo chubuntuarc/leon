@@ -24,16 +24,34 @@
 
 		<div class="ejercicio3">
 		<form method="post">
-		<span>Ingresa una clave de usuario </span><input type="text" placeholder="Clave de acceso" name="acceso">
+		<span>Ingresa tu usuario </span><input type="text" placeholder="usuario" name="acceso">
 		<br><br>
-		<input type="submit" value="Ingresar">
+		<input type="submit" value="Obtener">
 		<?php 
 		    error_reporting(0);
-		    $claves[4] = array();
-		    $contador = 0;
-		    array_splice( $claves, 2, 0, $_POST['acceso'] );
-		    ++$contador;
-		    var_dump($claves)
+		    $acceso = $_POST['acceso'];
+		    $usuarios = array('chubuntu' =>  123 , 'daniel' =>  456 , 'victor' =>  789 , 'diana' =>  101 , 'ricardo' =>  112);
+
+		    switch ($acceso) {
+		    	case "chubuntu":
+		    		echo "Hola " . $acceso . " tu coontraseña es " . $usuarios['chubuntu'];
+		    		break;
+		    	case "daniel":
+		    		echo "Hola " . $acceso . "tu coontraseña es " . $usuarios['daniel'];
+		    		break;
+		    	case "victor":
+		    		echo "Hola " . $acceso . "tu coontraseña es " . $usuarios['victor'];
+		    		break;
+		    	case "diana":
+		    		echo "Hola " . $acceso . "tu coontraseña es " . $usuarios['diana'];
+		    		break;
+		    	case "ricardo":
+		    		echo "Hola " . $acceso . "tu coontraseña es " . $usuarios['ricardo'];
+		    		break;
+		    	default:
+		    		echo "Usuario no registrado";
+		    		break;
+		    }
             ?>
 		</form>
 		</div>
