@@ -26,7 +26,7 @@
 					<a href="edad.php" target="blank">7 |  Validar edad</a>
 					<a href="grado.php" target="blank">8 |  Grado de estudios</a>
 					<a href="deportes.php" target="blank">9 |  Deportes favoritos</a>
-					<a href="http://www.municipiochihuahua.gob.mx/">Municipio CUU</a>
+					<a href="contrato.php">10 |  Contrato</a>
 					<a href="http://tiempo.com.mx" target="blank">El Tiempo</a>
 				</nav>
 							</header>
